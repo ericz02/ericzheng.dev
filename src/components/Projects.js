@@ -9,23 +9,23 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Social Media App",
+      description: "Dynamic social media platform similar to Redditt",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Spotify App",
+      description: "Responsive UI resembling Spotify’s design",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Fullstack To-Do App",
+      description: "An intuitive to-do app for simplified task management, promoting productivity and organization.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Discord App",
+      description: "A Skype-inspired platform with live chat, audio/video calls, screen sharing, and more!",
       imgUrl: projImg1,
     },
     {
@@ -46,7 +46,7 @@ export const Projects = () => {
         <Row>
           <Col size={12} className="wow fadeIn">
             <h2>Projects</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>My Projects: A Showcase of Completed Work</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
@@ -74,8 +74,8 @@ export const Projects = () => {
                     }
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="section">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                <Tab.Pane eventKey="second">
+                  <p>Lorem</p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
